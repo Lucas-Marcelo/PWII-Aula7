@@ -13,4 +13,12 @@ export class AppComponent {
   {
     alert(this.title);
   }
+
+  peso = 80;
+  altura = 1.80;
+  
+  exibirImc()
+  {
+    alert(this.peso / (this.altura * this.altura));
+  }  
 }
